@@ -1,0 +1,56 @@
+
+<!-- HOME -->
+<div id = "home" class = "col-xs-12" style = "clear:both">
+  <div id = "homecontent" class = "col-xs-8 col-xs-offset-2 text-center">
+    <h1 class = "heading">SHANA L MOORE</h1>
+    <h2>Web Developer</h2>
+    <a href = "https://twitter.com/shay_nuh__" target="_blank"><%= image_tag("th-twitter")%></a>
+    <a href = "https://github.com/shanalmoore" target="_blank"><%= image_tag("th-github")%></a>
+    <a href = "https://www.linkedin.com/in/shanalmoore" target="_blank"><%= image_tag("th-linkedin")%></a>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div id = "about" class = 'col-xs-12' style="clear:both;">
+    <div class = 'col-md-8 col-xs-12'>
+      <h1 class = "heading">ABOUT</h1>
+      <%= render 'welcome/about' %>
+    <div id = "skills" class = "col-xs-10 col-xs-offset-2">
+      <%= image_tag("th-html1") %>
+      <%= image_tag("th-css") %>
+      <%= image_tag("th-bootstrap") %>
+      <%= image_tag("th-rubyonrails") %>
+      <%= image_tag("th-github22") %>
+    </div>
+  </div>
+  <div class = 'col-xs-12 col-md-4' id = 'shanapic'>
+    <%= image_tag("shana", class: "img-responsive") %>
+  </div>
+</div>
+
+<div id = "break" class = "col-xs-12" style = "clear: both"></div>
+
+<!-- TOP TEN -->
+<div id = "topten" class = "col-xs-12" style = "clear: both">
+  <div class = "col-xs-10 col-xs-offset-1">
+    <h1 class = "heading">Why You Should Hire Me</h1>   
+    <%= render 'welcome/topten' %>
+</div>
+</div>
+
+<!-- CONTACT -->
+<div id = "contact" class = "col-xs-12" style = "clear:both">
+  <div id="conactcontent" class = "col-xs-8 col-xs-offset-2 text-center">
+    <h1 class = "heading">CONTACT</h1>
+    <ul>
+      <li><%= image_tag("th-pinicon") %><a href="https://docs.google.com/presentation/d/1UvVozIANNSWIrCrF--yMdxvMW4HrGTYIG_svnqFz9uw/export/pdf-"></%>DOWNLOAD RESUME</a></li>
+      <li><%= image_tag("th-mailicon") %><a href="mailto:{{page.email}}" target="_top">shana.lavina.moore@gmail.com</a></li>
+      <li><%= image_tag("th-globeicon") %><a href="{{page.website}}" target="_blank">www.shanalmoore.com</a></li>
+  <li>
+    </ul>
+  </div>
+</div>
+
+
+
+

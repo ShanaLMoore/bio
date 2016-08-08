@@ -1,0 +1,280 @@
+/*
+You can write more css here
+or add additional files.
+
+Learn more here: https://developer.zesty.io/docs/code-editor/css-and-less/
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  padding: 45px 0 0 0;
+
+}
+
+.navbar-default {
+    margin-bottom: -20px !important;
+    background-color: white;
+    border-color: white;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #aa863a;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: #A40079; /*BACKGROUND color for active*/
+background-color: white;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: #C8C8D1; /*Change active text color here*/
+   font-family: 'Playfair Display', serif;
+   font-weight: bolder;
+    }
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.heading {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  margin-bottom: -10px;
+  font-size: 100px;
+}
+
+#homecontent {
+  background-color: rgba(171,227,187,.75);
+  padding-bottom: 10px;
+  }
+
+#home h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+}
+
+#home img {
+  height: 50px;
+  width: 50px;
+}
+
+#home {
+  padding: 200px 0px 250px 0px;
+  background-color: #ABE3BB;
+  background: url(https://static.pexels.com/photos/34676/pexels-photo.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover; 
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 50px;
+    }
+    #home h2 {
+      font-size: 20px;
+    }
+    #home img {
+       height: 30px;
+       width: 30px;
+}
+    #home {
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+    #homecontent {
+      background-color: rgba(171,227,187,.75); 
+
+    }
+}
+
+#about {
+  margin: 0 auto;
+  background-color: #aa863a;
+  padding: 175px 0px;
+}
+
+#about h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#about p {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#about #skills img {
+  width: 15%;
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 50%;
+}
+#shanapic {
+  margin-top: 40px;
+}
+#shanapic img {
+  display: block;
+  margin: 20px auto;
+  max-width: 75%;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 600px) {
+  #about {
+    background-color: #aa863a;
+  }
+}
+
+#break {
+  padding: 100px;
+  background-color: #ABE3BB;
+  background: url(https://static.pexels.com/photos/75121/notes-coffee-learn-work-75121-large.jpeg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover; 
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+
+#topten {
+  margin: 0 auto;
+  background-color: #667467;
+  padding: 100px 0px;
+  color: white;
+  font-size: 16px;  
+}
+
+#topten h1 {
+  text-align: center;
+  padding: 40px 0px;
+}
+
+#topten a {
+  color: #ede9ce;
+}
+
+#topten p {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#contact {
+  padding: 200px 0px 250px 0px;
+  background-color: #ABE3BB;
+  background: url(https://static.pexels.com/photos/26806/pexels-photo-large.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover; 
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center; 
+}
+  
+#conactcontent {  
+  padding-bottom: 10px;
+  background-color: rgba(40, 80, 24, .75);
+}
+
+#contact h1 {
+  text-align: center;
+  padding: 40px 0px;
+  font-family: 'Playfair Display', serif;
+}
+
+#contact ul {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  list-style: none;
+  padding: 0;
+
+}
+#contact li img {
+  width: 7%;
+}
+#contact a img {
+  width: 8%;
+}
+
+#contact a {
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #contact ul {
+        font-size: 15px;
+    }
+    #contact {
+      padding: 200px 0px;
+    }
+    #contact h1 {
+      font-size: 20px;
+    }
+    #contact img {
+       width: 15%;
+}
+    #contact {
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+}
+
+#container {
+  display: inline;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: #f0eceb;
+  margin: 0 auto;
+  text-align: center;
+  color: #0F1C50;
+  width: 100%;
+}
+#made {
+  background-color: white;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif; 
+}
